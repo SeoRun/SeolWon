@@ -14,8 +14,7 @@
   
   <section>
   <h1>글 내용</h1>
-  <h2>햄버거</h2>
-  <p>안녕 나는 혜선이야 집을 가고 싶어!!! GIT 사용하기 너무 어려워요...</p>
+  <p>nav.jsp를 만들어야 메인페이지에서 이곳저곳 이동할 수 있을 텐데...</p>
   </section>
   
   <jsp:include page="include/footer.jsp" />
