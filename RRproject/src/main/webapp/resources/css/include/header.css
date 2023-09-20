@@ -1,0 +1,30 @@
+header {
+	background-color: white;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.menu {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+hr {
+	height: 1px;
+	background-color: gray;
+}
+
+.hamburger-icon {
+	width: 35px;
+	height: 4px;
+	background-color: #333;
+	margin: 7px 0;
+}
