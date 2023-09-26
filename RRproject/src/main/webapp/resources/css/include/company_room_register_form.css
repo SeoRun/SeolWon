@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -367,4 +368,4 @@ button[type="submit"] {
     color: white; /* 등록 버튼 글자색 */
     font-size: 13px; /* 등록 버튼의 글자 크기를 조절합니다. */
 }
-\
+

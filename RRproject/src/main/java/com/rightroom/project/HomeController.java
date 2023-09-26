@@ -33,7 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "company_room_register_form";
+		return "home";
 	}
 	
 }

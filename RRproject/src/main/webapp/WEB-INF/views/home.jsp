@@ -10,14 +10,14 @@
 </head>
 <body>
   
-  <jsp:include page="include/header.jsp" />
+ 	<jsp:include page="include/header.jsp" />
   
-  <section>
-  <h1>글 내용</h1>
-  <p>nav.jsp를 만들어야 메인페이지에서 이곳저곳 이동할 수 있을 텐데...</p>
-  </section>
+	<!-- 사용자 상세 페이지 -->
+	<jsp:include page="user_room_detail.jsp" />
   
-  <jsp:include page="include/footer.jsp" />
+
+  
+ 	<jsp:include page="include/footer.jsp" />
   
 </body>
 </html>

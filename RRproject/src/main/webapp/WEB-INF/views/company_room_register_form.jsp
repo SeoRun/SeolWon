@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<!-- JS.jsp 부분 -->
+	<!-- JS.jsp 부분/근데 제대로 동작이 안되서 임시로 만들어 놓음 -->
 	<script src="/WEB-INF/views/include/company_room_register_form_js.jsp"></script>
+	
 </head>
-
-<body>
-<!-- 타이틀이랑 헤더 가져오기 -->
-<jsp:include page="include/title.jsp" />
-<jsp:include page="include/header.jsp" />
-
+	
+	<body>
+	
+	<!-- 하단에 푸터를 고정시키기 위해 wrapper클래스 속성 만들어주기 -->
+	<div class="wrapper">
 
 	<div class="container">
 	
@@ -355,7 +355,9 @@
 		        
 	    </form>
 		</div>
-	
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
-	</html>
+</html>
